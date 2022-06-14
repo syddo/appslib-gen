@@ -1,0 +1,3 @@
+[submodule "unison_objects"]
+	path = unison_objects
+	url = git@github.com:syddo/unison_objects.git
