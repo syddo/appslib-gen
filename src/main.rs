@@ -1,5 +1,7 @@
 use clap::{App, Arg};
 
+use unison_objects::applicationlibrary as appslib;
+
 #[derive(Clone, Debug)]
 struct CliOpts {
     library_name: String
@@ -29,6 +31,8 @@ fn main() {
     let user_cli_inputs = get_cli_options();
     
     println!("Unsion Library Name: {}", user_cli_inputs.library_name);
+
+    appslib::call_me();
     
     println!("Done!");
 }
