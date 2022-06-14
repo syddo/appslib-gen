@@ -7,4 +7,4 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33"
-unison_objects = { path = "./unison_objects" }
+unison_objects = { git = "https://github.com/syddo/unison_objects", branch = "main" }
